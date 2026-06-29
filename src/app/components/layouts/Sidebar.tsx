@@ -1,5 +1,5 @@
 'use client'
-import { BriefcaseMedical, Clapperboard, ClipboardPlus, Film, Hospital, LayoutDashboard } from "lucide-react";
+import { BriefcaseMedical, ClipboardPlus, Hospital } from "lucide-react";
 import Link from "next/link";
 import { IMenu } from "./menu/admin.menu";
 
