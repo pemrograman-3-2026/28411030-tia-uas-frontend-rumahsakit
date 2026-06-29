@@ -1,5 +1,5 @@
 'use client'
-import { BriefcaseMedical, ClipboardPlus, Hospital } from "lucide-react";
+import { BriefcaseMedical, ClipboardPlus, FileUser, Hospital } from "lucide-react";
 import Link from "next/link";
 import { IMenu } from "./menu/admin.menu";
 
@@ -8,6 +8,7 @@ const navItems = [
   { to: "/admin", icon: <Hospital />, label: "Dashboard" },
   { to: "/admin/dokter", icon: <BriefcaseMedical />, label: "Dokter" },
   { to: "/admin/spesialis", icon: <ClipboardPlus />, label: "Spesialis" },
+  { to: "/admin/pasien", icon: FileUser, label: "Pasien" },
 ];
 
 export default function Sidebar(
