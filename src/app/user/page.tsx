@@ -27,11 +27,11 @@ export default function UserDashboardPage () {
             <div className="row">
                {dokter.map(dokter => (
                     <div key={dokter.id} className="col-md-4 col-sm-6 col-xs-12">
-                        <div className="card">
-                            <div className="car-body">
+                        <div className="card mb-4">
+                            <div className="car-body text-center gap-2 py-5">
                                 <h5 className="card-title">{dokter.nama_dokter}</h5>
                                 <p className="card-text">{dokter.spesialis.name}</p>
-                                <div className="d-flex gap-1">
+                                <div className="d-flex gap-3 justify-content-center ">
                                     <button className="btn btn-primary">Detail</button>
                                     <button className="btn btn-warning">Pilih</button>
                                 </div>

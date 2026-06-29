@@ -42,13 +42,14 @@ export default function AdminDokterPage () {
 
             </div>
 
-            <table className="table mt-4 table-hover table-striped">
+            <table className="table mt-4 table-hover table-striped ">
                 <thead>
                     <tr>
                         <td>Nama Dokter</td>
                         <td>Jenis Kelamin</td>
                         <td>Tanggal Lahir</td>
                         <td>Spesialis</td>
+                        <td>Aksi</td>
                         
                     </tr>
                 </thead>
@@ -64,8 +65,8 @@ export default function AdminDokterPage () {
                     
                                 <td>
                                 <div className="d-flex">
-                                    <button type="button" className="btn btn-warning me-2">Edit</button>
-                                    <button type="button" className="btn btn-danger me-2">Delete</button>
+                                    <button type="button" className="btn btn-warning me-2 ">Edit</button>
+                                    <button type="button" className="btn btn-danger me-2 ">Delete</button>
                                 </div>
                                 </td>
                                 

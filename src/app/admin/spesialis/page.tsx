@@ -52,7 +52,7 @@ export default function SpesialisPage () {
          <button type="button" className="btn btn-success">Tambah Spesialis</button>
         </Link>
         
-        <table className="table table-hover mt-4"> 
+        <table className="table mt-4 table-hover table-striped"> 
             <thead>
                 <tr>
                     <td>Nama Spesialis</td>
