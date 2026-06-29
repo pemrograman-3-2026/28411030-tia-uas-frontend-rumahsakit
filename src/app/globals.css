@@ -47,3 +47,21 @@ a {
     color-scheme: dark;
   }
 }
+
+.sidebar {
+  
+  min-height: 100vh;
+
+  background: linear-gradient(180deg, #0e4022 0%, #416acb 100%);
+  color: #e5e7eb;
+
+  box-shadow: 2px 0 15px rgba(233, 244, 14, 0.25);
+  border-right: 1px solid rgba(238, 235, 16, 0.05);
+
+  transition: all 0.3s ease;
+  padding: 16px;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+}
