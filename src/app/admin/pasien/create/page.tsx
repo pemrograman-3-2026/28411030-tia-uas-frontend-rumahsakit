@@ -1,7 +1,6 @@
 'use client'
 import { api } from "@/lib/axios"
-import React, { useEffect, useState } from "react"
-import { ISpesialis } from "../../spesialis/page"
+import React, { useState } from "react"
 import { showToast } from "@/app/components/toast/Toast"
 import { useRouter } from "next/navigation"
 
